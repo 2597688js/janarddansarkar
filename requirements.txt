@@ -1,16 +1,2 @@
-altgraph==0.17
-asgiref==3.2.3
-cx-Freeze==6.1
 Django==3.0
-docx2pdf==0.1.7
-future==0.18.2
-package-jana==0.1
-pefile==2019.4.18
-pygame==1.9.6
-PyInstaller==3.6
-pytz==2019.3
-pywin32==227
-pywin32-ctypes==0.2.0
-sqlparse==0.3.0
-tqdm==4.46.1
 virtualenv==16.7.9
