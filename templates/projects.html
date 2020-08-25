@@ -1,0 +1,138 @@
+{% extends "base.html" %}
+
+{% block title %}Projects{% endblock title %}
+
+{% block body %}
+
+
+<main id="main">
+
+<!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg" style="padding-top: 3%">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Projects</h2>
+          <p>Just learning a technology without using it in a project does not clear our concepts. Practical
+            implementation of a learnt skill boosts us our confidence and teach us how to deal with real world errors.
+            Over the period of my B.tech days and M.tech days I have worked on some mini projects as well as a couple of major project.
+            Please find them here.</p>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">Mini projects</li>
+              <li data-filter=".filter-card">Major projects</li>
+            <!--  <li data-filter=".filter-web">Web</li>    -->
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <a href="https://github.com/2597688js/XSS"> Demonstration of stored XSS attack and CSRF attack</a>
+              <!-- <img src="/static/assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""> -->
+             <div class="portfolio-links">
+              <!--  <a href="https://github.com/2597688js/XSS" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>  -->
+                <a href="https://github.com/2597688js/XSS" title="Github link"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <a href="https://github.com/2597688js/snake-game-inlockdown"> Snack game </a>
+              <!-- <img src="/static/assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""> -->
+             <div class="portfolio-links">
+              <!--  <a href="https://github.com/2597688js/XSS" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>  -->
+                <a href="https://github.com/2597688js/snake-game-inlockdown" title="Github link"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <a href="https://github.com/2597688js/Machine-learning/blob/master/LDA_generalized.ipynb"> Linear Descrimination Analysis from Scratch</a>
+              <div class="portfolio-links">
+                <a href="https://github.com/2597688js/Machine-learning/blob/master/LDA_generalized.ipynb" title="Github link"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <a href="https://github.com/2597688js/Machine-learning/blob/master/QDA_generalized.ipynb">  Quadratic Descrimination Analysis from Scratch</a>
+              <div class="portfolio-links">
+                <a href="https://github.com/2597688js/Machine-learning/blob/master/QDA_generalized.ipynb" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <a href="https://github.com/2597688js/Linear-Regression-from-Scratch/blob/master/Liner_Regression_using_data1.ipynb"> Linear-Regression-from-Scratch </a>
+              <div class="portfolio-links">
+                <a href="https://github.com/2597688js/Linear-Regression-from-Scratch/blob/master/Liner_Regression_using_data1.ipynb" title="github"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <a href="https://github.com/2597688js/Machine-learning/blob/master/naive.ipynb"> Naive Bayes Algorithm from Scratch</a>
+              <div class="portfolio-links">
+                <a href="https://github.com/2597688js/Machine-learning/blob/master/naive.ipynb" title="github"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <a href="#">A study on 'Peer to peer encryption system using public key cryptography'</a>
+              <div class="portfolio-links">
+                <a href="#" title="github"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <a href="https://github.com/2597688js/Automated-Image-Captioning-using-deep-learning"> Automated Image Captioning using deep learning (B.Tech final year)</a>
+              <div class="portfolio-links">
+                <a href="https://github.com/2597688js/Automated-Image-Captioning-using-deep-learning" title="github"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+ <!--         <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="/static/assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="/static/assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="/static/assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="/static/assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+-->
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+</main>
+
+{% endblock body %}
